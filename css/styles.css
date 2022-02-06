@@ -1,17 +1,22 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: "Outfit";
-  padding-top: 65px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card {
   background-color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width:315px;
   border-radius: 3%;
   padding: 20px;
